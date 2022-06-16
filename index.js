@@ -1,10 +1,17 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let rightIndex = 0
+  let leftIndex = word.length - 1;
+  if (word[rightIndex] === word[leftIndex]) {
+  return true
+} else {
+  return false
+}
 }
 
 /* 
   Add your pseudocode here
-*/
+  */
 
 /*
   Add written explanation of your solution here
